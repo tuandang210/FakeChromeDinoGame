@@ -21,12 +21,12 @@ function stopMusic(){
 
 
 tutorial.addEventListener("click", () => {
-    alert("Press 'Space' key to start game." + "\n\nPress 'ArrowUp' key to let the T-rex jump. " +
-        "\n\nPress the 'Music' button to play music." + "\n\nDouble click to stop music" +
-        "\n\nAnd the 'Secret' button is useless @@!")
+    alert("Press 'Space' key to start game." + "\nPress 'ArrowUp' key to let the T-rex jump. " +
+        "\nPress the 'Music' button to play music." + "\nDouble click to stop music." +
+        "\nAnd the 'Secret' button is useless @@!")
 });
 secret.addEventListener("click", () => {
-    alert("\nThis button is useless."+"\n\nTold you already.")
+    alert("This button is useless."+"\nTold you already.")
 })
 let scoreCounter = () => {
     playerScore++;
