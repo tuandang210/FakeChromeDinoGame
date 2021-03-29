@@ -11,10 +11,12 @@ let secret = document.getElementById("secret");
 let interval = null;
 let playerScore = 0;
 
+var audio = new Audio("elevate.mp3");
 function play() {
-    var audio = new Audio("origin.mp3");
     audio.play();
 }
+
+
 tutorial.addEventListener("click", () => {
     alert("\nPress 'Space' key to start game." + "\n\nPress 'ArrowUp' key to let the T-rex jump. " +
         "\n\nPress the 'Music' button to play music." + "\n\nAnd the 'Secret' button is useless @@!")
