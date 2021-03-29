@@ -19,13 +19,13 @@ body {
     height: 70px;
     width: 70px;
     position: absolute;
-    bottom: 28px;
+    bottom: 48px;
     left: 20px;
 }
 
 #container #dino img {
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 100px;
 }
 
 .dinoActive {

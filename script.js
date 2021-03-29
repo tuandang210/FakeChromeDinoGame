@@ -15,11 +15,15 @@ var audio = new Audio("elevate.mp3");
 function play() {
     audio.play();
 }
+function stopMusic(){
+    audio.pause();
+}
 
 
 tutorial.addEventListener("click", () => {
-    alert("\nPress 'Space' key to start game." + "\n\nPress 'ArrowUp' key to let the T-rex jump. " +
-        "\n\nPress the 'Music' button to play music." + "\n\nAnd the 'Secret' button is useless @@!")
+    alert("Press 'Space' key to start game." + "\n\nPress 'ArrowUp' key to let the T-rex jump. " +
+        "\n\nPress the 'Music' button to play music." + "\n\nDouble click to stop music" +
+        "\n\nAnd the 'Secret' button is useless @@!")
 });
 secret.addEventListener("click", () => {
     alert("\nThis button is useless."+"\n\nTold you already.")
