@@ -36,7 +36,7 @@ window.addEventListener("keydown", (start) => {
         gameOver.style.display = "none";
         block.classList.add("blockActive");
         road.firstElementChild.style.animation = "roadAnimate 1.5s linear infinite";
-        cloud.firstElementChild.style.animation = "cloudAnimate 50s linear infinite";
+        cloud.firstElementChild.style.animation = "cloudAnimate 20s linear infinite";
 
         //score
         let playerScore = 0;
@@ -69,7 +69,7 @@ let result = setInterval(() => {
     let blockLeft = parseInt(getComputedStyle(block).getPropertyValue("left"));
 
 
-    if (dinoBottom <= 70 && blockLeft >= 50 && blockLeft <= 100) {
+    if (dinoBottom <= 70 && blockLeft >= 0 && blockLeft <= 100) {
 
 
         gameOver.style.display = "block";
@@ -79,4 +79,4 @@ let result = setInterval(() => {
         clearInterval(interval);
         playerScore = 0;
     }
-}, 10);
+}, 100);

@@ -34,16 +34,14 @@ body {
 
 @keyframes animateDino {
 
-    0%,
-    100% {bottom: 28px;}
+    0%, 100% {bottom: 28px;}
 
-    45%,
-    55% {bottom: 160px;}
+    45%, 55% {bottom: 160px;}
 }
 
 #container #block {
     height: 80px;
-    width: 125px;
+    width: 80px;
     position: absolute;
     bottom: 20px;
     right: -20px;
