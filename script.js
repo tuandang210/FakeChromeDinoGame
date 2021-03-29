@@ -22,7 +22,7 @@ tutorial.addEventListener("click", () => {
         "\n\nPress the 'Music' button to play music." + "\n\nAnd the 'Secret' button is useless @@!")
 });
 secret.addEventListener("click", () => {
-    alert("\nThis is useless."+"\n\nTold you already.")
+    alert("\nThis button is useless."+"\n\nTold you already.")
 })
 let scoreCounter = () => {
     playerScore++;
