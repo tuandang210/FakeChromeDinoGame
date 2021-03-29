@@ -69,7 +69,7 @@ let result = setInterval(() => {
     let blockLeft = parseInt(getComputedStyle(block).getPropertyValue("left"));
 
 
-    if (dinoBottom <= 70 && blockLeft >= 0 && blockLeft <= 100) {
+    if (dinoBottom <= 70 && blockLeft >= -20 && blockLeft <= 100) {
 
 
         gameOver.style.display = "block";
