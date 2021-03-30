@@ -11,7 +11,7 @@ let secret = document.getElementById("secret");
 let interval = null;
 let playerScore = 0;
 
-var audio = new Audio("elevate.mp3");
+var audio = new Audio("Phao - 2 Phut Hon.mp3");
 function play() {
     audio.play();
 }
