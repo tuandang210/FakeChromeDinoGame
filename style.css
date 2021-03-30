@@ -36,9 +36,9 @@ body {
 
 @keyframes animateDino {
 
-    0%, 100% {bottom: 28px;}
+    0%, 100% {bottom: 48px;}
 
-    45%, 55% {bottom: 160px;}
+    45%, 55% {bottom: 180px;}
 }
 
 #container #block {
